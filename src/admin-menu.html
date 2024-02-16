@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin menu</title>
+    <link rel="stylesheet" href="./style.css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Ingredients</th>
+                    <th>Price</th>
+                    <th>Src</th>
+                    <th>Delete from menu</th>
+                </tr>
+            </thead>
+            <tbody class="cards-list">
+            </tbody>
+        </table>
+    </div>
+    <div class="card">
+        <form class="card__body">
+            <label>Название блюда
+                <input type="text" name="title" class="card-title">
+            </label>
+            <label>Перечесли ингриндиенты
+                <input type="text" name="ingredients" class="card-ingredients">
+            </label>
+            <label>Укажи цену за 1ед.
+                <input type="number" name="price" class="card-price">
+            </label>
+            <label>Ссылка на картинку
+                <input type="text" name="link" class="card-picture-link">
+            </label>
+            <button class="custom-btn btn-3"><span>Добавить блюдо</span></button>
+        </form>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
